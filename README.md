@@ -1,40 +1,19 @@
 ## USB to Serial Module
 
-USB to Serial module with CH340E core.
-downlaod datasheet [click here]().
+USB to Serial module with CH340E core with built-in USB connector on PCB.
 
-You can use the [editor on GitHub](https://github.com/farhad3113/usb_to_serial/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+To downlaod CH340 datasheet [click here](https://github.com/farhad3113/usb_to_serial/blob/master/CH340.pdf).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Level Shifting
 
-### Markdown
+CH340 chip supports 5V and 3.3V power voltage. When using 5V source power, the VCC pin input 5V
+power and the V3 pin should connect with decoupling 100nF capacitor. When using 3.3V power voltage,
+connects V3 with VCC, both input 3.3V power voltage, and the other circuit voltage which connected with
+CH340 cannot exceed 3.3V.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You need just power the chip with 3v3 and jumper pins 7 to 10 (Which are specified in the PCB). 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Support
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/farhad3113/usb_to_serial/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with module? Contact me.
