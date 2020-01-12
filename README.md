@@ -2,6 +2,8 @@
 
 USB to Serial module with CH340E core with built-in USB connector on PCB.
 
+![Preview](https://github.com/farhad3113/usb_to_serial/blob/master/PCB_preview.png)
+
 To downlaod CH340 datasheet [click here](https://github.com/farhad3113/usb_to_serial/blob/master/CH340.pdf).
 
 ### Level Shifting
