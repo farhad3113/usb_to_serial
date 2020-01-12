@@ -15,6 +15,11 @@ CH340 cannot exceed 3.3V.
 
 You need just power the chip with 3v3 and jumper pins 7 to 10 (Which are specified in the PCB). 
 
+### Printing
+#### Preferred thickness
+min = 2.0mm, 
+MAX = 2.4mm
+
 
 ### Support
 
